@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Booking App
+    </title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container-form">
+     <form action ="#">
+        <h2>Booking app</h2>
+        <div class="form-field">
+            <p>Please select your journey type</p>
+            <input type="radio" id="html" name="fav_language" value="One Way">
+            <label for="Oneway">One Way</label>
+            <input type="radio" id="css" name="fav_language" value="Round Trip">
+            <label for="Roundtrip">Round trip</label><br>
+        </div>
+
+        <div>
+            <p>Please select your journey date</p>
+            <label for="Departuredate">Departure:</label>
+            <input type="date" id="departure" name="departure">
+            <label for="Returndate">Return:</label>
+            <input type="date" id="return" name="return">
+        </div>
+        <div>
+            <p>Number of passengers</p>
+            <label for="Adult">Adult</label>
+            <input type="number" id="adult" name="adult">
+            <label for="Child">Child</label>
+            <input type="number" id="child" name="child"> <br><br/>         
+        </div>
+        <div>
+            <label for="Passenger">Passenger 1</label>
+            <input type="text" id="passenger1" name="passenger1">
+            <label for="Age">Age</label>
+            <input type="number" id="passengerAge" name="passengerAge">
+            <label for="gender1">Choose gender:</label>
+            <select name="gender1" id="gender1">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+            <br><br>
+        </div>
+        <div>
+            <label for="Passenger">Passenger 2</label>
+            <input type="text" id="passenger2" name="passenger2">
+            <label for="Age">Age</label>
+            <input type="text" id="passenger2Age" name="passenger2Age">
+            <label for="gender2">Choose gender:</label>
+            <select name="gender2" id="gender2">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+        </div>
+        <input type="submit" value="Submit">
+     </form>
+    </div>
+</body>
+
+</html>
